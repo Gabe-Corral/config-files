@@ -1,1 +1,3 @@
-export PS1="%F{#50fa7b}%n@%m%f:%F{#bd93f9}%~%f$ "
+export PS1="\[\e[38;2;80;250;123m\]\u@\h\[\e[0m\]:\[\e[38;2;189;147;249m\]\w\[\e[0m\]\$ "
+
+export PATH=/home/gabe/.opencode/bin:$PATH
